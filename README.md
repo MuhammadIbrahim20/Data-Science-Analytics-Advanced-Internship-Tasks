@@ -1,2 +1,17 @@
-📋 Project Overview
-This repository contains a dynamic collection of data science and analytics solutions structured around customer segmentation, target modeling, predictive classification, and deployment validation. It encompasses robust data preprocessing pipelines, multi-model evaluations, cost-risk optimizations, and comprehensive visual analytics.🛠️ Technical Stack & LibrariesLanguage: PythonData Manipulation & Processing: pandas, numpyData Visualization: matplotlib, seabornMachine Learning Frameworks: scikit-learn📂 Component Overviews & Key Outputs1. Customer Segmentation and Profiling (Mall_Customers.csv)This component applies unsupervised machine learning algorithms to uncover distinct behavioral archetypes within a retail customer database. Using structural parsing and descriptive statistical metrics, the workflow groups consumers based on key transaction parameters:Dataset Structure: Captures granular features including CustomerID, Gender, Age, Annual Income (k$), and Spending Score (1-100).Statistical Profiling: Summarizes behavioral variance using explicit mathematical distribution metrics.Key Metric Distributions:Annual Income Variance: Average: $60.56k$, Standard Deviation: $26.26k$ (ranging from $15.00k$ to $137.00k$).Spending Velocity Archetypes: Evaluates demographic clusters using an absolute distribution spread across a structured scaling range of $1$ to $99$.Profile MetricCountMeanStd DevMinMaxAge20038.8513.9718.0070.00Annual Income (k$)20060.5626.2615.00137.00Spending Score20050.2025.821.0099.002. Marketing Tele-Target Optimization Framework (bank-selected-columns.csv)Designed around modern classification constraints, this task processes operational business indicators to evaluate, predict, and systematically improve direct marketing conversion pipelines.Optimized Risk & Threshold Tuning: Establishes model tuning frameworks beyond standard default boundaries.Financial & Operational Cost Boundaries: Integrates an advanced operational cost evaluation framework that shifts default assumptions to an optimal threshold boundary.$$\text{Operational Cost Threshold} = 0.75 \quad \longrightarrow \quad \text{Minimized Loss Bound} = \$330,000.00$$3. Model Deployment and Class Assignment Matrix (submission.csv)A validation engine tracking categorical distributions and target integrity mappings to ensure model compliance prior to target system ingestion.Structural Pipeline Checks: Validates identity indexes paired with direct classifications.Target Imbalance Matrix: Computes precise sample balancing distributions:Class 0 (Negative Condition Baseline): 168 Samples ($84.0\%$)Class 1 (Positive Condition Target): 32 Samples ($16.0\%$)
+# Data Science & Analytics – Advanced Internship Tasks
+**DevelopersHub Corporation**  
+
+## 📌 Project Overview
+This repository contains the advanced data science tasks completed during my Data Science & Analytics Internship at DevelopersHub Corporation. The projects demonstrate practical applications of real-world machine learning paradigms, spanning unsupervised customer segmentation, predictive binary classification, explainable AI (XAI) implementations, and financial cost-threshold optimization pipelines.
+
+---
+
+## 🛠️ Repository Structure
+```directory
+├── BankChurners.csv                 # Dataset used for Task 1
+├── Mall_Customers (1).csv           # Dataset used for Task 2
+├── aug_test.csv                     # Dataset used for Task 4
+├── Task1_Customer_Churn_XAI.ipynb  # Jupyter Notebook for Task 1
+├── Task2_Customer_Segmentation.ipynb# Jupyter Notebook for Task 2
+├── Task4_Cost_Optimization.ipynb    # Jupyter Notebook for Task 4
+└── README.md                        # Project Documentation (This file)
